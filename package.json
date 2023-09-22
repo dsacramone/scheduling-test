@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
+    "@hellotech/scheduling": "^1.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,6 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "scheduling": "git+https://5e087a5ee9c8c415104f4a83a2f72cd5a24e206d:x-oauth-basic@github.com/HelloTech/ui-scheduling.git#80794a8",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
