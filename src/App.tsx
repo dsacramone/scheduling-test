@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 // @ts-ignore
-// import Scheduling from '@hellotech/scheduling';
-import HTScheduling from 'scheduling';
+import Scheduling from '@hellotech/scheduling';
 import './App.css';
 
 function App() {
@@ -59,6 +58,7 @@ function App() {
   const onHandleClose = () => {
     setOpenModal(false)
   }
+  console.log("11: OPEN MOODAL: ", openModal);
 
   return (
     <div className="App">
@@ -68,9 +68,9 @@ function App() {
         </p>
         <br /><br />
         <div onClick={() => setOpenModal(true)}>{`>> Click Open Modal <<` }</div>
-        <HTScheduling
+        <Scheduling
           openScheduling={openModal}
-          token='test-'
+          token='test-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NzMwMzI5LCJlbWFpbCI6ImluZm9AZW1wb3JpYWVuZXJneS5jb20iLCJ0eXBlIjoiUGFydG5lciIsInJvbGUiOm51bGwsInZlcnNpb24iOjF9.hE-tB69pKqEQGX0QPkUo7TUgEel7CPejma-8NdeWNMM'
           theme={theme}
           windowSelectionSize = {4}
           hourMilitaryRange = {[9, 16]}
