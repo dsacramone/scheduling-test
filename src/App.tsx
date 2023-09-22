@@ -58,7 +58,6 @@ function App() {
   const onHandleClose = () => {
     setOpenModal(false)
   }
-  console.log("11: OPEN MOODAL: ", openModal);
 
   return (
     <div className="App">
