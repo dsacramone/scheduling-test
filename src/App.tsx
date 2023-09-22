@@ -70,7 +70,7 @@ function App() {
         <div onClick={() => setOpenModal(true)}>{`>> Click Open Modal <<` }</div>
         <HTScheduling
           openScheduling={openModal}
-          token='test-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NzMwMzI5LCJlbWFpbCI6ImluZm9AZW1wb3JpYWVuZXJneS5jb20iLCJ0eXBlIjoiUGFydG5lciIsInJvbGUiOm51bGwsInZlcnNpb24iOjF9.hE-tB69pKqEQGX0QPkUo7TUgEel7CPejma-8NdeWNMM'
+          token='test-'
           theme={theme}
           windowSelectionSize = {4}
           hourMilitaryRange = {[9, 16]}
